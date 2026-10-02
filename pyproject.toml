@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bracket_validator_holinei"  # Назва має бути унікальною на TestPyPI!
+version = "0.1.0"
+description = "Bracket validator library"
+readme = "README.md"
+authors = [{ name = "Sviat Holinei", email = "sviatgolinei@gmail.com" }]
+requires-python = ">=3.8"
