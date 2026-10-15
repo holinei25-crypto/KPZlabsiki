@@ -20,7 +20,6 @@ class TestLogProcessor(unittest.TestCase):
             rx, tx = process_logs("fake.txt")
 
             # 33 B (перший запит) + 14 B (другий запит) = 47 B
-            # 440 B + 23712 B = 24152 B
             self.assertEqual(rx, 47)
             self.assertEqual(tx, 24152)
 
